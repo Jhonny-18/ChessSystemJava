@@ -38,6 +38,7 @@ public class Program {
 				if (capturedPiece != null) {
 					captured.add(capturedPiece);
 				}
+<<<<<<< HEAD
 				
 				if(chessMatch.getPromoted() != null) {
 					System.out.print("Enter piece for promotion (B/N/R/Q): ");
@@ -48,6 +49,8 @@ public class Program {
 					}
 					chessMatch.replacePromotedPiece(type); 	
 				}
+=======
+>>>>>>> parent of cef620c (Special move - Promotion)
 			}
 			catch (ChessException e) {
 				System.out.println(e.getMessage());
